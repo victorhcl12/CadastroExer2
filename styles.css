@@ -1,0 +1,89 @@
+
+#formulario {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  body {
+    text-align: center;
+    background-image: url(background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+body > a > img {
+    display: block;
+    margin: -65px auto;
+}
+
+
+#quadrado{
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #formulario input, #formulario select, #formulario textarea {
+
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  #formulario input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  #formulario button[type="submit"] {
+
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 48%;
+    bottom: -22% ;
+  }
+  
+  #formulario button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+
+  #resultado {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #resultado h2 {
+    margin-top: 0;
+  }
+  
+  #resultado p {
+    margin-bottom: 20px;
+  }
+  
+  #resultado img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  #formulario{
+    text-align: left;
+  }
+
